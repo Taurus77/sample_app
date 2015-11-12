@@ -9,7 +9,7 @@ group :development, :test do
   gem 'rspec-rails'
 end  
 
-group :test do
+group :development, :test do
   gem 'selenium-webdriver'
   gem 'capybara'
 end
