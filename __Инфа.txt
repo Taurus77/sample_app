@@ -1,0 +1,9 @@
+1. Вызов тестов
+rspec spec/requests/static_pages_spec.rb
+
+2. Работа с бд
+rake db:setup
+rake db:migrate
+rake db:reset
+
+rake db:setup RAILS_ENV=test

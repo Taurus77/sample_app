@@ -25,6 +25,7 @@ end
 group :test do
   gem 'rb-notifu'
   gem 'wdm'	 
+  gem 'factory_girl_rails'
 end	
 
 # Use SCSS for stylesheets
