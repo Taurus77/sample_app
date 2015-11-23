@@ -7,6 +7,8 @@ gem 'bootstrap-sass'
 gem 'bcrypt'
 gem 'pg'
 
+#gem 'thin'
+
 # Use sqlite3 as the database for Active Record
 group :development, :test do
   gem 'rspec-rails'
